@@ -1,0 +1,17 @@
+This script will name a folder full of random MP3 files based on their
+ID3 tags. It names them like:
+
+Artist - Album - Track - Title.mp3
+
+If a piece of info is not in the tag, it won't use it. If Title is 
+missing, the original filename will be used instead.
+
+Also, this is my first-ever Python script. Expect more features soon.
+
+
+TODO: Command-line features:
+ * mp3name.exe [c:\dir\to\scan] [-i] [-c] [-f]
+ * Dir to scan = defaults to current dir
+ * -i = Invert artist (e.g. 'The Beatles' = 'Beatles, The'
+ * -c = Capitalize Words (default uses tag data)
+ * -f = Sort into artist/album folders
