@@ -1,11 +1,7 @@
 # Needs id3reader: http://nedbatchelder.com/code/modules/id3reader.py
 #
 # TODO: command-line arguments:
-# * mp3name.exe [c:\dir\to\scan] [-i] [-c] [-f]
-# * Dir to scan = defaults to current dir
-# * -i = Invert artist (e.g. 'The Beatles' = 'Beatles, The'
-# * -c = Capitalize Words (default uses tag data)
-# * -f = Sort into artist/album folders
+
 import os, re, id3reader
 
 for file in os.listdir('.' + os.sep):
