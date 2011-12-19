@@ -6,10 +6,10 @@ Artist - Album - Track - Title.mp3
 If a piece of info is not in the tag, it won't use it. If Title is 
 missing, the original filename will be used instead.
 
-Also, this is my first-ever Python script. Expect more features soon.
+Also, this is my first-ever Python script. I think I'll properly learn Py.
 
 
-TODO: Command-line features:
+TODO eventually: Command-line features:
  * mp3name.exe [c:\dir\to\scan] [-i] [-c] [-f]
  * Dir to scan = defaults to current dir
  * -i = Invert artist (e.g. 'The Beatles' = 'Beatles, The'
