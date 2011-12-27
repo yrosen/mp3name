@@ -5,7 +5,7 @@
 # By Yudi Rosen (yudi42@gmail.com)
 ##
 
-import os, re
+import os, re, argparse
 
 try:
 	import id3reader
@@ -43,7 +43,12 @@ def main():
 
 			print file, ' -> ', filename
 			os.rename(file, filename)
+	
+	# All done, get out of here.
+	sys.exit()
 
-		
+
+
+
 if __name__ == "__main__":
         main()
