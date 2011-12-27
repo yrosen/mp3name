@@ -5,7 +5,7 @@
 # By Yudi Rosen (yudi42@gmail.com)
 ##
 
-import os, re, argparse
+import os, re, sys
 
 try:
 	import id3reader
